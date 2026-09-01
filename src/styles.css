@@ -19,6 +19,16 @@
  */
 
 @theme inline {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-mist: var(--mist);
+  --color-fog: var(--fog);
+  --color-haze: var(--haze);
+  --color-slateblue: var(--slateblue);
+  --color-deep: var(--deep);
+  --color-marine: var(--marine);
+  --color-amber: var(--amber);
+  --color-panel: var(--panel);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -28,6 +38,7 @@
   --radius-4xl: calc(var(--radius) + 16px);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);

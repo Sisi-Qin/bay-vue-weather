@@ -19,6 +19,16 @@
  */
 
 @theme inline {
+  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-mist: var(--mist);
+  --color-fog: var(--fog);
+  --color-haze: var(--haze);
+  --color-slateblue: var(--slateblue);
+  --color-deep: var(--deep);
+  --color-marine: var(--marine);
+  --color-amber: var(--amber);
+  --color-panel: var(--panel);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -28,6 +38,7 @@
   --radius-4xl: calc(var(--radius) + 16px);
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-popover: var(--popover);
@@ -62,9 +73,17 @@
 }
 
 :root {
-  --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  --radius: 0.75rem;
+  --mist: oklch(0.944 0.006 239.8);
+  --fog: oklch(0.874 0.011 234.8);
+  --haze: oklch(0.769 0.019 237.9);
+  --slateblue: oklch(0.524 0.03 235.9);
+  --deep: oklch(0.34 0.024 236.6);
+  --marine: oklch(0.507 0.07 218);
+  --amber: oklch(0.681 0.108 65.5);
+  --panel: oklch(1 0 0 / 55%);
+  --background: var(--mist);
+  --foreground: var(--deep);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.129 0.042 264.695);
   --popover: oklch(1 0 0);
@@ -140,5 +159,13 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
   }
+}
+
+@utility grid-ticks {
+  background-image:
+    linear-gradient(to right, color-mix(in oklab, var(--slateblue) 12%, transparent) 1px, transparent 1px),
+    linear-gradient(to bottom, color-mix(in oklab, var(--slateblue) 12%, transparent) 1px, transparent 1px);
+  background-size: 24px 24px;
 }

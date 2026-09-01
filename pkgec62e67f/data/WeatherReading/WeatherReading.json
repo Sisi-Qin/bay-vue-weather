@@ -1,0 +1,272 @@
+[
+  {
+    "id": "seed_weatherreading_01",
+    "date": "Feb 01",
+    "label": "Feb 01",
+    "weather": "Fog",
+    "minTemp": 52.0,
+    "maxTemp": 58.0,
+    "rainChance": 20.0
+  },
+  {
+    "id": "seed_weatherreading_02",
+    "date": "Feb 02",
+    "label": "Feb 02",
+    "weather": "Cloud",
+    "minTemp": 53.0,
+    "maxTemp": 59.0,
+    "rainChance": 12.0
+  },
+  {
+    "id": "seed_weatherreading_03",
+    "date": "Feb 03",
+    "label": "Feb 03",
+    "weather": "Overcast",
+    "minTemp": 54.0,
+    "maxTemp": 60.0,
+    "rainChance": 30.0
+  },
+  {
+    "id": "seed_weatherreading_04",
+    "date": "Feb 04",
+    "label": "Feb 04",
+    "weather": "Rain",
+    "minTemp": 54.0,
+    "maxTemp": 58.0,
+    "rainChance": 70.0
+  },
+  {
+    "id": "seed_weatherreading_05",
+    "date": "Feb 05",
+    "label": "Feb 05",
+    "weather": "Fog",
+    "minTemp": 53.0,
+    "maxTemp": 59.0,
+    "rainChance": 18.0
+  },
+  {
+    "id": "seed_weatherreading_06",
+    "date": "Feb 06",
+    "label": "Feb 06",
+    "weather": "Clear",
+    "minTemp": 54.0,
+    "maxTemp": 62.0,
+    "rainChance": 8.0
+  },
+  {
+    "id": "seed_weatherreading_07",
+    "date": "Feb 07",
+    "label": "Feb 07",
+    "weather": "Cloud",
+    "minTemp": 55.0,
+    "maxTemp": 63.0,
+    "rainChance": 14.0
+  },
+  {
+    "id": "seed_weatherreading_08",
+    "date": "Feb 08",
+    "label": "Feb 08",
+    "weather": "Drizzle",
+    "minTemp": 55.0,
+    "maxTemp": 60.0,
+    "rainChance": 50.0
+  },
+  {
+    "id": "seed_weatherreading_09",
+    "date": "Feb 09",
+    "label": "Feb 09",
+    "weather": "Fog",
+    "minTemp": 54.0,
+    "maxTemp": 61.0,
+    "rainChance": 24.0
+  },
+  {
+    "id": "seed_weatherreading_10",
+    "date": "Feb 10",
+    "label": "Feb 10",
+    "weather": "Clear",
+    "minTemp": 55.0,
+    "maxTemp": 64.0,
+    "rainChance": 10.0
+  },
+  {
+    "id": "seed_weatherreading_11",
+    "date": "Feb 11",
+    "label": "Feb 11",
+    "weather": "Cloud",
+    "minTemp": 56.0,
+    "maxTemp": 65.0,
+    "rainChance": 16.0
+  },
+  {
+    "id": "seed_weatherreading_12",
+    "date": "Feb 12",
+    "label": "Feb 12",
+    "weather": "Overcast",
+    "minTemp": 56.0,
+    "maxTemp": 62.0,
+    "rainChance": 38.0
+  },
+  {
+    "id": "seed_weatherreading_13",
+    "date": "Feb 13",
+    "label": "Feb 13",
+    "weather": "Fog",
+    "minTemp": 55.0,
+    "maxTemp": 63.0,
+    "rainChance": 20.0
+  },
+  {
+    "id": "seed_weatherreading_14",
+    "date": "Feb 14",
+    "label": "Feb 14",
+    "weather": "Clear",
+    "minTemp": 56.0,
+    "maxTemp": 66.0,
+    "rainChance": 8.0
+  },
+  {
+    "id": "seed_weatherreading_15",
+    "date": "Feb 15",
+    "label": "Feb 15",
+    "weather": "Cloud",
+    "minTemp": 57.0,
+    "maxTemp": 67.0,
+    "rainChance": 12.0
+  },
+  {
+    "id": "seed_weatherreading_16",
+    "date": "Feb 16",
+    "label": "Feb 16",
+    "weather": "Rain",
+    "minTemp": 57.0,
+    "maxTemp": 61.0,
+    "rainChance": 88.0
+  },
+  {
+    "id": "seed_weatherreading_17",
+    "date": "Feb 17",
+    "label": "Feb 17",
+    "weather": "Fog",
+    "minTemp": 56.0,
+    "maxTemp": 64.0,
+    "rainChance": 30.0
+  },
+  {
+    "id": "seed_weatherreading_18",
+    "date": "Feb 18",
+    "label": "Feb 18",
+    "weather": "Rain",
+    "minTemp": 56.0,
+    "maxTemp": 59.0,
+    "rainChance": 100.0
+  },
+  {
+    "id": "seed_weatherreading_19",
+    "date": "Feb 19",
+    "label": "Feb 19",
+    "weather": "Cloud",
+    "minTemp": 57.0,
+    "maxTemp": 65.0,
+    "rainChance": 14.0
+  },
+  {
+    "id": "seed_weatherreading_20",
+    "date": "Feb 20",
+    "label": "Feb 20",
+    "weather": "Clear",
+    "minTemp": 58.0,
+    "maxTemp": 68.0,
+    "rainChance": 6.0
+  },
+  {
+    "id": "seed_weatherreading_21",
+    "date": "Feb 21",
+    "label": "Feb 21",
+    "weather": "Fog",
+    "minTemp": 58.0,
+    "maxTemp": 69.0,
+    "rainChance": 18.0
+  },
+  {
+    "id": "seed_weatherreading_22",
+    "date": "Feb 22",
+    "label": "Feb 22",
+    "weather": "Overcast",
+    "minTemp": 59.0,
+    "maxTemp": 66.0,
+    "rainChance": 42.0
+  },
+  {
+    "id": "seed_weatherreading_23",
+    "date": "Feb 23",
+    "label": "Feb 23",
+    "weather": "Cloud",
+    "minTemp": 59.0,
+    "maxTemp": 70.0,
+    "rainChance": 22.0
+  },
+  {
+    "id": "seed_weatherreading_24",
+    "date": "Feb 24",
+    "label": "Feb 24",
+    "weather": "Clear",
+    "minTemp": 60.0,
+    "maxTemp": 72.0,
+    "rainChance": 10.0
+  },
+  {
+    "id": "seed_weatherreading_25",
+    "date": "Feb 25",
+    "label": "Feb 25",
+    "weather": "Fog",
+    "minTemp": 60.0,
+    "maxTemp": 71.0,
+    "rainChance": 16.0
+  },
+  {
+    "id": "seed_weatherreading_26",
+    "date": "Feb 26",
+    "label": "Feb 26",
+    "weather": "Drizzle",
+    "minTemp": 61.0,
+    "maxTemp": 67.0,
+    "rainChance": 55.0
+  },
+  {
+    "id": "seed_weatherreading_27",
+    "date": "Feb 27",
+    "label": "Feb 27",
+    "weather": "Cloud",
+    "minTemp": 61.0,
+    "maxTemp": 73.0,
+    "rainChance": 28.0
+  },
+  {
+    "id": "seed_weatherreading_28",
+    "date": "Feb 28",
+    "label": "Feb 28",
+    "weather": "Clear",
+    "minTemp": 62.0,
+    "maxTemp": 74.0,
+    "rainChance": 12.0
+  },
+  {
+    "id": "seed_weatherreading_29",
+    "date": "Mar 01",
+    "label": "Mar 01",
+    "weather": "Fog",
+    "minTemp": 62.0,
+    "maxTemp": 75.0,
+    "rainChance": 20.0
+  },
+  {
+    "id": "seed_weatherreading_30",
+    "date": "Mar 02",
+    "label": "Mar 02",
+    "weather": "Clear",
+    "minTemp": 63.0,
+    "maxTemp": 78.0,
+    "rainChance": 8.0
+  }
+]

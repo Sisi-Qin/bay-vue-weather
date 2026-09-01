@@ -1,0 +1,46 @@
+/**
+ * A single day's Bay Area weather observation, as displayed on the weather dashboard.
+ *
+ * Each instance is one calendar day of readings for the San Francisco / Marin coast
+ * station: the qualitative {@link WeatherReading#weather} condition, the daily low
+ * ({@link WeatherReading#minTemp}) and high ({@link WeatherReading#maxTemp}) temperatures,
+ * and the {@link WeatherReading#rainChance} probability of rain. The dashboard fetches
+ * these records to render the min-temp, max-temp, and chance-of-rain charts plus the
+ * daily readings table.
+ */
+entity type WeatherReading schema name "WEATHER_READING" {
+  /**
+   * The calendar day of the reading, formatted as a short label (e.g. "Feb 01").
+   * Doubles as the x-axis category for the dashboard charts.
+   */
+  date: !string
+
+  /**
+   * Short axis label for charts; mirrors {@link WeatherReading#date} (e.g. "Feb 01").
+   */
+  label: string
+
+  /**
+   * The qualitative weather condition observed for the day. One of:
+   * "Fog", "Cloud", "Overcast", "Clear", "Rain", or "Drizzle".
+   */
+  weather: !string
+
+  /**
+   * The minimum (overnight low) temperature for the day, in degrees Fahrenheit.
+   * Plotted on the "Min Temp" chart.
+   */
+  minTemp: !double
+
+  /**
+   * The maximum (daytime high) temperature for the day, in degrees Fahrenheit.
+   * Plotted on the "Max Temp" chart.
+   */
+  maxTemp: !double
+
+  /**
+   * The probability of rain for the day, expressed as a percentage from 0 to 100.
+   * Plotted on the "Chance of Rain" chart; the daily table flags days at or above 50%.
+   */
+  rainChance: !double
+}

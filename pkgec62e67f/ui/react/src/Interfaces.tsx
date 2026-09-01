@@ -65,3 +65,16 @@ export interface DocumentTemplate {
   description: string;
   estimatedTime: string;
 }
+
+export type WeatherKind = 'Fog' | 'Cloud' | 'Overcast' | 'Clear' | 'Rain' | 'Drizzle';
+
+/** A single day's Bay Area weather observation (backed by the WeatherReading C3 entity). */
+export interface WeatherReading {
+  id: string;
+  date: string;
+  label: string;
+  weather: WeatherKind;
+  minTemp: number;
+  maxTemp: number;
+  rainChance: number;
+}
